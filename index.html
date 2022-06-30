@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="cssfile.css">
+    <style>
+        .required input:after { content:"*"; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="img">
+           <img src="emblem_of_Nepal.png" alt="Error"> 
+        </div>
+        <div class="text-head">
+            <span>Goverment of nepal</span><br>
+            <span class="blue">Council of Minister</span><br>
+            <span>Department of National ID</span><br>
+            <span class="red">Online Citizenship Registration System </span>
+        </div>
+    </div>
+        <div>
+            <h2>Applicant Registration </h2>
+        </div>
+        <form>
+            
+            <input type="text" class ="type1" placeholder="Enter Your First Name " required>
+            <input type="text"  placeholder="Enter Your  Middle Name">
+            <input type="text"  placeholder="Enter Your Last Name"required> 
+            <input type="date" placeholder="Date of Birth"required>
+            <input type="number" placeholder="(+977) Mobile Number"required>
+            <input type="password" placeholder="password"required>
+            <input type="password" placeholder="conform password"required>
+            <input type="email" placeholder="Enter Your Email"required>
+
+            <select name="dropdown"required>
+                <option value="home"> <b>Where is your home?</b></option>
+                <option value="like"> What do you like most?</option>
+                <option value="school"> What is your first school name?</option>
+            </select>
+            <label for="Answer"><p><b>Answer</b></p></label>
+            <textarea id="Answer" name="Answer" rows="1" cols="20"required>
+
+            </textarea>
+        </form>
+       <button>Sign Up</button>
+       <p><b>Already have an account?<a href="http://Login.com" target="_blank">Login</a></b></p>
+    </body>
+</html>
