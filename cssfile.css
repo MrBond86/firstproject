@@ -61,7 +61,7 @@ textarea{
     width: 100%;
     padding: 25px;
     border-radius: 15px;
-    border: 0;
+    border: none;
     box-shadow: 4px 4px 10px;
     height: 10px;
     border-style:solid ;
